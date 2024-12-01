@@ -1,0 +1,99 @@
+.navbar {
+    background-color: #081b29; ;
+    padding: 10px; /* Añade espaciado interno */
+
+}
+.navbar-h4{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px -2px 2px black, 0 0 5px rgb(5, 255, 222);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+
+
+
+.btn{
+    margin: 10px;
+    
+    color: #fcfcfc;
+    font-weight: bold; /* aplica negrita*/
+    text-align: center;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    color:  #05abec;
+}
+
+
+.img1{
+    justify-content: center;
+    display: flex;
+
+}
+
+.img2{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+h1{
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div.galeria{
+    margin: 15px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 250px;
+
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(245, 243, 245);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a.btn{
+    margin: 10px;
+    text-decoration: none; /*elimina el subrayado predeterminado*/
+    color: #0d0e0e;
+    font-weight: bold; /* aplica negrita*/
+    text-align: center;
+    background-color:  #05abec (112, 245, 205) ;  
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+

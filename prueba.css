@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #081b29; ;
+    padding: 10px; /* Añade espaciado interno */
+
+}
+.navbar-h4{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px -2px 2px black, 0 0 5px rgb(5, 255, 222);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.btn{
+    margin: 10px;
+    
+    color: #fcfcfc;
+    font-weight: bold; /* aplica negrita*/
+    text-align: center;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    color: #05abec;
+}
+
+
+.container-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+}

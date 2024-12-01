@@ -1,0 +1,74 @@
+.navbar {
+    background-color: #081b29; ;
+    padding: 10px; /* Añade espaciado interno */
+
+}
+.navbar-h4{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px -2px 2px black, 0 0 5px rgb(5, 255, 222);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+
+
+
+.btn{
+    margin: 10px;
+    
+    color: #fcfcfc;
+    font-weight: bold; /* aplica negrita*/
+    text-align: center;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    color:  #05abec;
+}
+
+/* Estilos para el contenedor del formulario de contacto */
+.form-container {
+    background-color: #f4f4f4; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 500px; /* Ancho máximo */
+    margin: 50px auto; /* Centrado vertical y horizontal */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilos para los campos de entrada */
+.form-container input[type="text"],
+.form-container textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen superior e inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón de envío */
+.form-container input[type="submit"] {
+    background-color: #081b29; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Efecto hover para el botón de envío */
+.form-container input[type="submit"]:hover {
+    background-color: #055a8c; /* Color de fondo al pasar el ratón */
+}
+
+
